@@ -10,7 +10,6 @@ PORT=$( /usr/sbin/tw_cli ${CON} show | cut -d " " -f1 | grep p )
         do
         /usr/sbin/tw_cli ${CON}/${POR} show all | grep Temp
         done
-
 done
 
 exit
